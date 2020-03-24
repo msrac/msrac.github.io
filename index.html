@@ -1,0 +1,32 @@
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="keyworks" content="contabilidade,assessoria,contabil,rh,fiscal,empresa">
+  <meta name="description" content="Assessoria em Finanças, Contabilidade, Escrituração Fiscal e de Recursos Humanos. Abertura e fechamento de Empresas">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <title>MSRAC - Contabilidade</title>
+  <style>
+    div {
+      text-align:center;
+      margin-top: 50px; 
+    }
+    div h1 {
+      font-family:"Times New Roman", serif;
+    }
+    div, td {
+      font-weight:bold;
+      font-family:Verdana,Sans-serif
+    }
+  </style>
+</head>
+<body>
+  <app>Loading...</app>
+  <script type="systemjs-packagemap" src="/app/packagemap.json"></script>
+  <script src="https://cdn.jsdelivr.net/npm/systemjs@2/dist/system.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/systemjs@2/dist/extras/amd.min.js"></script>
+  <script>
+    /* global System */
+    window.onload = () => System.import('boot');
+  </script>
+</body>
+</html>
